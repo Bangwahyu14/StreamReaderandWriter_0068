@@ -16,5 +16,6 @@ int main()
 	catch (exception& e) {
 		//penangkap menggunakan objeck exception
 		cout << e.what() << endl;
+		/*akan diekesekusi karna array data hanyta memiliki 3 elemen*/
 	}
 }
