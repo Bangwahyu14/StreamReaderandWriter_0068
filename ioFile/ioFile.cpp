@@ -16,7 +16,7 @@ int main() {
 	while (true) {
 		cout << "-";
 		//mendapatkan setiap karakter dalam satu baris
-		getline(cin.baris);
+		getline(cin, baris);
 		//loop akan berhenti jika anda memasukan karakter q
 		if (baris == "q") break;
 		//menulis dan memasukan nilai dari 'baris' ke daam file
@@ -33,7 +33,7 @@ int main() {
 
 	cout << endl << ">= Membuka dan membaca file " << endl;
 	//jika file ada maka
-	if (infile.if_open())
+	if (infile.is_open())
 	{
 		//melakukan perulangan setiap baris
 		while (getline(infile, baris))
