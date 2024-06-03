@@ -18,4 +18,7 @@ int main()
 		cout << e.what() << endl;
 		/*akan diekesekusi karna array data hanyta memiliki 3 elemen*/
 	}
+	cout << "baris program yang terakhir " << endl;
+	/*penanda 2: bahwa program berjalan tanpa berhenti meskipun terjadi kesalahan*/
+	return 0;
 }
